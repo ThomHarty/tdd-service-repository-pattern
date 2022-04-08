@@ -8,7 +8,8 @@
     "prettier:write": "prettier --write .",
     "test:repository": "jest ./User.repository.spec.ts --watch",
     "test:service": "jest ./User.service.spec.ts --watch",
-    "test:controller": "jest ./User.controller.spec.ts --watch"
+    "test:controller": "jest ./User.controller.spec.ts --watch",
+    "test:bootstrap": "jest ./Bootstrap.spec.ts --watch"
   },
   "license": "MIT",
   "devDependencies": {
