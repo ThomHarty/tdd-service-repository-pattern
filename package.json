@@ -6,7 +6,8 @@
     "run:dev": "ts-node-dev --respawn --transpile-only --no-notify -r tsconfig-paths/register src/Bootstrap.ts",
     "prettier:check": "prettier --check .",
     "prettier:write": "prettier --write .",
-    "test:repository": "jest ./User.repository.spec.ts --watch"
+    "test:repository": "jest ./User.repository.spec.ts --watch",
+    "test:service": "jest ./User.service.spec.ts --watch"
   },
   "license": "MIT",
   "devDependencies": {
